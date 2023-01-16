@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mary Frances Haws</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body class="bg">
+        <nav>
+            <a href="index.html"><img class="logo" src="mfh-logo.svg" alt="mfh logo"></a>
+            <a id="header-head" href="index.html">Mary Frances Haws</a>
+            <ul>
+                <li><a class="nav-link underline" href="art.html">Art</a></li>
+                <li><a class="nav-link underline" href="design.html">Design</a></li>
+                <li><a class="nav-link underline" href="photography.html">Photography</a></li>
+                <li id="nav-about"><a class="nav-link underline" href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <header>
+            <h1>. Design / UI/UX /<br>Pro Grocery Shopping .</h1>
+        </header>
+
+        <section>
+            <p class="content-center">Figma Prototype: <a href="https://www.figma.com/proto/rQbkWa3O8RjsfnI8fjAN8T/psyc-409-project-team-library?node-id=431%3A139&page-id=431%3A138&scaling=scale-down&starting-point-node-id=431%3A139&viewport=241%2C48%2C0.16">Pro Grocery Shopping App</a></p>
+            <p class="content-center">Collaborator: Divya Venkatesh</p>
+            <p class="content">Completed for my methods in human-computer interaction class at Rice, this project uses established human factors methods to analyze and guide a new interface design for a third-party professional grocery shopping app. The product and design process prioritizes usability and user goals of speed and accuracy for the shopping task, and the prototype consists of medium-fidelity wireframes.</p>
+        </section>
+        
+        <section>
+            <img class="center-image" src="current-orders.png" alt="Current orders pages">
+        </section>
+
+        <section>
+            <div class="about-text-center">
+                <h2 class="art-text-head-center">Operational Analysis</h2>
+                <p>An operational analysis was performed first to determine the functions that need to be provided by the system in order to accomplish its purpose and meet design goals.</p>
+                <p>Step 1: define the purpose of the product in one sentence: <i>This product will provide shoppers with all the necessary information to fulfill customer orders efficiently and accurately.</i></p>
+                <p>Step 2: outline the subordinate functions required to accomplish the above purpose: <i>The product must be accessible to the shopper (portable and available during the shopping process), the product must display all appropriate and necessary information (available orders, shopping lists and item quantities, remaining items, differentiation among multiple orders, barcode scanner, etc.), the product must provide directions to stores and customer addresses and guide the shopper through the checkout process.</i></p>
+                <p>Step 3: anticipate and describe potential failure of the system that would prevent the accomplishment of its purpose: <i>A failure to display necessary information in an intuitive way (shopping lists, item quantities, etc.), a failure to provide feedback to the shopper's actions (like scanning items), a failure to generally assist the shopper with speed and accuracy.</i></p>
+                <p>Step 4: describe the users of the system: <i>Professional grocery shoppers who may fall anywhere between the beginner and experienced levels, prioritize speed and accuracy, have access to transportation for deliveries, and own smartphones.</i></p>
+            </div>
+        </section>
+
+        <section>
+            <div class="about2">
+                <div class="about2-text">
+                    <h2 class="art-text-head">Analysis of Similar Systems (Competitive Analysis)</h2>
+                    <p>In order to understand competing products, specify our minimum design requirements, and clarify task goals, an analysis of similar systems was performed. Instacart, Shipt, and Amazon/Whole Foods were identified as such systems, and professional shopper walkthrough videos posted online were analyzed in order to collect relevant information (interviewing and observing shoppers in-person was not feasible given the ongoing pandemic).</p>
+                    <p>The features we investigated included: <i>how the systems assigned and/or allowed shoppers to choose one or more orders, what information was presented to shoppers about the order(s), the hardware and software utilized for the system, feedback when wrong items were selected, and payment processes.</i> If the systems handled these features in different ways, we compared the strategies and identified points for improvement to be integrated into our new design.</p>
+                    <p>For example, we identified that Instacart and Shipt both provided feedback when the shopper scanned the wrong item, yet neither system included clear information about the error. This was noted as a point for improvement, so our second prototype incorporated feedback that uses structure and color to provide clearer cues to the user.</p>
+                </div>
+                <div class="about-img-big">
+                    <img src="wrong-item.png" alt="Wrong item feedback">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="art">
+                <div class="about-img">
+                    <img src="store-map.png" alt="Store map page">
+                </div>
+                <div class="art-text">
+                    <h2 class="art-text-head">Error Analysis</h2>
+                    <p>While conducting the analysis of similar systems, we analyzed the errors made consistently by professional shopper throughout their task. Errors constitute any action that reduces system performance, and these are system-induced rather than the fault of users.</p>
+                    <p>The two major errors observed during the shopping process were: <i>the inability to find and scan the correct item and a failure to group items into the correct orders (which can carry over into checkout and delivery).</i> Recognizing these errors is crucial to ensure that the new design will handle them effectively. This analysis also revealed the competition between our design goals of speed an accuracy; determining how to best balance these goals is essential to the design.</p>
+                    <p>One feature which was informed by the error analysis was the inclusion of a store map for more efficient navigation and to assist the shopper in locating the correct items. This, in addition to proper error feedback shown above, should reduce error occurrences and balance speed and accuracy.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="about2">
+                <div class="about2-text">
+                    <h2 class="art-text-head">Flow Analysis</h2>
+                    <p>A flow analysis was performed to understand the general progression and necessary steps for the task of fulfilling orders. Points in the process at which the user would need to make decisions were also identified and visualized in flow diagrams. A functional flow and decision actional flow (right) are shown. Understanding the flow of tasks and decisions informed the progression of screens for our interface.</p>
+                </div>
+                <div class="about-img-big">
+                    <img src="Decision Actional Flow.drawio.png" alt="Decision actional flow chart">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <img class="center-image-big" src="functional flow.drawio.png" alt="Functional flow chart">
+        </section>
+
+        <section>
+            <div class="about-text-center">
+                <h2 class="art-text-head-center">Task Analysis</h2>
+                <p>A task analysis allowed us to understand which actions are necessary for users during the process of fulfilling an order. The top level goal was defined as “fulfilling the order(s),” and this goal was decomposed into a hierarchy of tasks through the analysis of the walkthrough videos. Although similar steps are described in the flow analysis, the task analysis influenced the big picture: how each part of the process leads into another and how the overall app architecture should be structured for each part.</p>
+            </div>
+        </section>
+
+        <section>
+            <img class="center-image-big" src="Task Analysis.drawio.png" alt="Task analysis flow chart">
+        </section>
+
+        <section>
+            <div class="about-text-center">
+                <h2 class="art-text-head-center">Prototype I</h2>
+                <p>Prototype I: <a href="https://www.figma.com/proto/rQbkWa3O8RjsfnI8fjAN8T/psyc-409-project-team-library?node-id=312%3A3&page-id=312%3A2&scaling=scale-down&starting-point-node-id=312%3A3&viewport=241%2C48%2C0.27">Pro Grocery Shopping App</a></p>
+                <p>After completing the above analyses, an initial grayscale prototype of the app was created. This prototype only encompassed the order selection and shopping parts of the process, which were to be evaluated first to inform the later functions (checkout and delivery) and their designs.</p>
+                <p>The design process for the first prototype began with some basic wireframe sketches. This was followed by using Figma to create an interactive prototype with order selection, order navigation, and shopping list features. The shopping list updated to display each found item with a checkmark, and differentiated orders with unique letters. Screens for scanning barcodes and determining substitutions and refunds were also specified.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="art">
+                <div class="about-img-big">
+                    <img src="usability.png" alt="Shopping list iterations">
+                </div>
+                <div class="art-text">
+                    <h2 class="art-text-head">Usability Assessment</h2>
+                    <p>Five participants were tested on the use of the first prototype in order to evaluate its usability. They were instructed to perform the shopping task with the prototype while seated a a table with a number of items, and were evaluated based on the accuracy of their final order groups and completion time. The participants had no prior experience with professional shopping apps and were not given any training prior to the assessment.</p>
+                    <p>The task consistently took about 4-5 minutes to complete, and two of the five participants had one item out of place at the completion of the task. One common error resulted from the participants not recognizing and clicking the “start shopping” button, which led them to add items to the cart before the appropriate point in the process. This identified an important point of confusion to be worked out in the next iteration by making the required actions clearer to users. The button was moved to the initial shopping list view, which was not fully functional until the button, anchored to the bottom of the screen, is clicked.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="about-text-center">
+                <h2 class="art-text-head-center">NASA-TLX Workload Assessment &amp; SUS Questionnaire</h2>
+                <p>Workload was assessed using the NASA-TLX, which measures the six dimensions of mental demand, physical demand, temporal demand, performance, effort, and frustration. We used the participant’s raw scores, which averaged to 25.83. This implies a relatively low workload for participants who were completely unfamiliar with the task, although it is important to note the significant differences between this task and the actual task performed in a store.</p>
+                <p>User perceptions of the system were assessed with the System Usability (SUS) questionnaire. This data provided insight into participants’ initial reactions to the system and its usability. The scores ranged from 55 to 92.5, with the average score being 71.5, which reflects the users’ individual learning curves as they became more familiar with the system during the task. The average is still encouraging for an initial test with little training and instruction, implying that the general structure of the app for this task was comfortable for users.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="about2">
+                <div class="about2-text">
+                    <h2 class="art-text-head">Prototype II</h2>
+                    <p>Prototype II: <a href="https://www.figma.com/proto/rQbkWa3O8RjsfnI8fjAN8T/psyc-409-project-team-library?node-id=431%3A139&page-id=431%3A138&scaling=scale-down&starting-point-node-id=431%3A139&viewport=241%2C48%2C0.16">Pro Grocery Shopping App</a></p>
+                    <p>After evaluating the first prototype and identifying its issues, a second prototype was constructed to take into account the above results. Modifications were made to the existing screens, including the addition of color and moving the “start shopping” button, and the checkout and delivery processes were implemented with accuracy in mind, as we observed multiple participants with incorrect order groupings.</p>
+                    <p>Prompts were added to remind users of the order each item should be placed with. The checkout process was built so that shoppers could not pay for an order with an incorrect total to  prevent grouping errors from carrying over into delivery. Delivery used records of the number of bags in each order from checkout to provide users with useful information and encourage accuracy without sacrificing speed.</p>
+                    <p>The solutions implemented in the second prototype could be improved upon by testing the prototype similarly to the first in order to uncover further obstacles to usability, speed, and accuracy.</p>
+                </div>
+                <div class="about-img-big">
+                    <img src="delivery.png" alt="Delivery flow">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <img class="center-image-big" src="checkout.png" alt="Checkout flow">
+        </section>
+
+        <section>
+            <p class="quote"><i>"Everything here was thought up and created by someone...in that case, even a convenience store is like an art museum."<br>-</i> Blue Period, <i>Tsubasa Yamaguchi</i></p>
+        </section>
+
+        <footer class="footer-bg">
+            <a href="index.html"><img class="logo-foot" src="mfh-logo-light.svg" alt="mfh logo"></a>
+            <a id="footer-head" href="index.html">Mary Frances Haws</a>
+            <ul>
+                <li id="footer-email"><a class="footer-link" href="maryfhaws@gmail.com">maryfhaws@gmail.com</a></li>
+                <li><a class="footer-link" href="vsco.co/maryfhaws">VSCO</a></li>
+                <li><a class="footer-link" href="instagram.com/maryfhaws.art/">Instagram</a></li>
+                <li><a class="footer-link" href="linkedin.com/in/maryfhaws">LinkedIn</a></li>
+            </ul>
+            <p class="copyright">&copy; 2023 by Mary Frances Haws</p>
+        </footer>
+    </body>
+</html>
