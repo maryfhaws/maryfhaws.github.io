@@ -466,7 +466,7 @@ nav li {
 }
 .child {
     flex: 1;
-    text-decoration: none;
+    list-style: none;
 }
 .child img {
     max-width: 100%;
