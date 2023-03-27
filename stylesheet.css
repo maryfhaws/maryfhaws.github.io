@@ -461,7 +461,7 @@ nav li {
     justify-content: center;
     align-items: flex-end;
     align-content: flex-start;
-    gap: 15px;
+    gap: 20px;
     max-width: 75%;
 }
 .child {
