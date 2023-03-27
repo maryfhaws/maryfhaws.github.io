@@ -464,7 +464,7 @@ nav li {
     gap: 15px;
 }
 .child {
-    flex-grow: 1;
+    flex: 1;
 }
 
 /* OTHER IMAGES */
