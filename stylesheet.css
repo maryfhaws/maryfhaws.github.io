@@ -455,6 +455,9 @@ nav li {
 }
 
 /* PHOTOGRAPHY PAGE */
+.photography {
+    text-align: center;
+}
 .container {
     display: flex;
     flex-flow: row wrap;
