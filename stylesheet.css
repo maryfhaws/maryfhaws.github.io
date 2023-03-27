@@ -462,10 +462,11 @@ nav li {
     align-items: flex-end;
     align-content: flex-start;
     gap: 15px;
-    max-width: 90%;
+    max-width: 75%;
 }
 .child {
     flex: 1;
+    text-decoration: none;
 }
 .child img {
     max-width: 100%;
