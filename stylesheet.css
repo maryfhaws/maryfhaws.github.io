@@ -467,6 +467,11 @@ nav li {
 .child {
     flex: 1;
 }
+.child img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
 
 /* OTHER IMAGES */
 .logo {
