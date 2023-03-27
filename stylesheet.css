@@ -465,7 +465,8 @@ nav li {
     justify-content: center;
     align-items: flex-end;
     align-content: flex-start;
-    gap: 40px 40px;
+    gap: 40px;
+    padding-top: 40px;
     max-width: 75%;
     margin-right: 7.5%;
     margin-left: 7.5%;
