@@ -457,8 +457,7 @@ nav li {
 /* PHOTOGRAPHY PAGE */
 .photography {
     text-align: center;
-    margin-left: 7.5%;
-    margin-right: 7.5%;
+    width: 100%;
 }
 .container {
     display: flex;
@@ -466,8 +465,10 @@ nav li {
     justify-content: center;
     align-items: flex-end;
     align-content: flex-start;
-    gap: 40px 20px;
+    gap: 40px 40px;
     max-width: 75%;
+    margin-right: 7.5%;
+    margin-left: 7.5%;
 }
 .child {
     flex: 1;
