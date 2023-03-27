@@ -463,6 +463,9 @@ nav li {
     align-content: flex-start;
     gap: 15px;
 }
+.child {
+    flex-grow: 1;
+}
 
 /* OTHER IMAGES */
 .logo {
