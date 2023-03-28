@@ -469,12 +469,14 @@ nav li {
     gap: 40px;
     margin-top: 75px;
     max-width: 75%;
-    margin-right: 7.5%;
-    margin-left: 7.5%;
+    margin-right: 12.5%;
+    margin-left: 12.5%;
+    padding: 0;
 }
 .child {
     flex: 1;
     list-style: none;
+    padding: 0;
 }
 .child img {
     max-width: 100%;
