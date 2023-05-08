@@ -543,7 +543,7 @@ nav li {
     text-align: justify;
     font-family: 'Futura', sans-serif;
     font-weight: bold;
-    color: #DD8C41;
+    color: #4A6C5C;
     font-size: 0.9em;
     font-style: italic;
     margin-left: 11%;
@@ -569,11 +569,11 @@ nav li {
     font-size: 1.7em;
 }
 .grid h6, .center h6 {
-    text-align: left;
+    text-align: justify;
     font-family: 'Futura', sans-serif;
     font-weight: bold;
-    color: #4A6C5C;
-    font-size: 1em;
+    color: #DD8C41;
+    font-size: 1.05em;
     margin-top: 3%;
     margin-bottom: 0;
 }
@@ -737,6 +737,39 @@ nav li {
 }
 
 /* MOBILE RESPONSIVENESS */
+
+@media screen and (max-width: 1000px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(auto, auto);
+        row-gap: 2%;
+        column-gap: 7%;
+        margin-top: 1%;
+    }
+    .grid-left {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .grid-left h4 {
+        text-align: left;
+    }
+    .grid-right {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+    }
+    .grid-right img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5%;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #nav-about {
         float: none;
