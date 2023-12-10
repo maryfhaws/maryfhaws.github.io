@@ -1,0 +1,435 @@
+:root {
+    --pearl: #F5F5F5;
+    --haze: #ECECEC;
+    --feather: #7F858B;
+    --midnight: #1F2D3B;
+    --spruce: #4A6C5C;
+    --plum: #6A77B7;
+    --turmeric: #DD8C41;
+}
+
+.page-header {
+    font-family: 'ShurikenStd-Boy', serif;
+    text-align: center;
+    font-size: 2.1em;
+    letter-spacing: 0.1em;
+    color: var(--turmeric);
+    margin: 0;
+    padding-top: 2.8%;
+    margin-bottom: 100px;
+}
+
+/* DEFAULT STYLES */
+h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.3em;
+    color: var(--plum);
+}
+h3 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.2em;
+    color: var(--spruce);
+}
+h4 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.1em;
+    letter-spacing: 0.01em;
+    color: var(--midnight);
+    margin-top: 25px;
+}
+p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1em;
+    color: var(--midnight);
+    text-align: left;
+    line-height: 1.75em;
+}
+
+/* CONTENT GRID */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr repeat(14, 50px) 1fr;
+    grid-template-rows: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* CONTENT LINKS */
+.content-grid a {
+    color: var(--midnight);
+}
+ .content-grid a:hover {
+    color: var(--feather);
+}
+
+/* HEADERS FOR ART OR DESIGN PAGE */
+.header-full {
+    grid-column: 2 / 14;
+    justify-self: start;
+    align-self: start;
+}
+.page-header-content-art {
+    font-family: 'ShurikenStd-Boy', serif;
+    font-style: normal;
+    font-size: 1.8em;
+    color: var(--spruce);
+    padding: 0;
+    margin: 0;
+}
+.page-header-content-tags {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--turmeric);
+    font-size: 0.75em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 0;
+    padding-top: 50px;
+}
+
+.page-header-content-design {
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.8em;
+    color: var(--midnight);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.page-header-content-tags-design {
+    font-family: 'ShurikenStd-Boy', serif;
+    font-style: normal;
+    color: var(--feather);
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    padding: 0;
+    padding-top: 50px;
+    margin-bottom: 25px;
+}
+.page-subheading-design {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.3em;
+    color: var(--feather);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.h2-design, .h3-design {
+    color: var(--midnight);
+}
+.h2-tag {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--feather);
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+/* CONTENT STYLES */
+/*** IMAGES AND TEXT ***/
+.text-full {
+    grid-column: 2 / 16;
+    justify-self: start;
+    align-self: start;
+    margin-bottom: 15px;
+}
+.img-full {
+    grid-column: 2 / 16;
+    width: auto;
+    max-width: 700px;
+    height: 400px;
+    justify-self: center;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.img-wide {
+    grid-column: 2 / 16;
+    width: 700px;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.cover-image {
+    margin-top: 50px;
+}
+
+.text-left {
+    grid-column: 2 / 9;
+    justify-self: start;
+    align-self: start;
+    margin-bottom: 50px;
+}
+.img-right {
+    grid-column: 10 / 16;
+    width: 300px;
+    height: auto;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 30px;
+}
+
+.text-left-narrow {
+    grid-column: 2 / 8;
+    justify-self: start;
+    align-self: start;
+    margin-bottom: 50px;
+}
+.img-right-wide {
+    grid-column: 9 / 16;
+    width: 350px;
+    height: auto;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 30px;
+}
+
+.img-left{
+    grid-column: 2 / 8;
+    width: 300px;
+    height: auto;
+    justify-self: start;
+    align-self: start;
+    margin-bottom: 30px;
+}
+
+/*** CALLOUT BOX ***/
+.callout {
+    grid-column: 3 / 15;
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+    border: 3px solid var(--feather);
+    border-radius: 10px;
+}
+.callout-left {
+    grid-column: 2 / 8;
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 15px;
+    border: 3px solid var(--feather);
+    border-radius: 10px;
+}
+.callout-h {
+    color: var(--midnight);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -2%;
+}
+.callout-p {
+    margin: 5%;
+}
+
+.extra-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/*** ART CONTENT STYLES ***/
+.img-full-art {
+    grid-column: 2 / 16;
+    width: auto;
+    max-width: 700px;
+    height: 430px;
+    justify-self: start;
+    align-self: center;
+    margin-top: 50px;
+}
+.text-full-art {
+    grid-column: 2 / 16;
+    justify-self: start;
+    align-self: start;
+    margin: 0;
+}
+.art-title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--midnight);
+    font-size: 1.1em;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+.art-desc {
+    margin: 0;
+}
+
+/* SMALL SCREENS */
+@media only screen and (max-width: 800px) {
+    .page-header {
+        font-size: 1.8em;
+        margin-bottom: 75px;
+    }
+    
+    .content-grid {
+        grid-template-columns: 1fr 300px 1fr;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding: 0;
+    }
+
+    /*** HEADERS FOR ART AND DESIGN ***/
+    .header-full {
+        grid-column: 2 / 3;
+    }
+    .page-header-content-tags {
+        padding: 0;
+    }
+    
+    .page-header-content-tags-design {
+        padding: 0;
+        margin-bottom: 25px;
+    }
+    .page-subheading-design {
+        margin-bottom: 15px;
+    }
+
+    /*** IMAGES AND TEXT ***/
+    .text-full, .text-left, .text-left-narrow {
+        grid-column: 2 / 3;
+    }
+    .img-full, .img-wide, .img-right, .img-left, .img-right-wide {
+        grid-column: 2 / 3;
+        width: 300px;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .cover-image {
+        margin-top: 35px;
+    }
+
+    /*** CALLOUT BOX ***/
+    .callout, .callout-left {
+        grid-column: 2 / 3;
+        width: 300px;
+    }
+
+    .extra-margin {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*** ART CONTENT STYLES ***/
+    .img-full-art {
+        grid-column: 2 / 3;
+        width: 300px;
+        height: auto;
+        margin-top: 40px;
+    }
+    .text-full-art {
+        grid-column: 2 / 3;
+    }
+
+}
+
+/* LARGE SCREENS */
+@media only screen and (min-width: 1700px) {
+    .page-header {
+        font-size: 2.5em;
+    }
+
+    /*** DEFAULT STYLES ***/
+    h2 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    h4 {
+        font-size: 1.4em;
+    }
+    p {
+        font-size: 1.3em;
+        line-height: 1.6em;
+    }
+
+    .content-grid {
+        grid-template-columns: 1fr repeat(14, 100px) 1fr;
+    }
+
+    /*** HEADERS FOR ART AND DESIGN ***/
+    .page-header-content-art {
+        font-size: 2.1em;
+    }
+    .page-header-content-tags {
+        font-size: 1.05em;
+    }
+    
+    .page-header-content-design {
+        font-size: 2.1em;
+    }
+    .page-header-content-tags-design {
+        font-size: 1.1em;
+    }
+    .page-subheading-design {
+        font-size: 1.6em;
+    }
+    
+    .h2-tag {
+        font-size: 1.1em;
+    }
+
+    /*** IMAGES AND TEXT ***/
+    .img-full {
+        max-width: 1400px;
+        height: 680px;
+    }
+    .img-wide {
+        width: 1400px;
+    }
+    .img-left, .img-right {
+        width: 600px;
+    }
+    .img-right-wide {
+        width: 700px;
+    }
+
+    /*** CALLOUT BOX ***/
+    .callout {
+        width: 1300px;
+    }
+    .callout-left {
+        width: 600px;
+    }
+
+    .callout-h {
+        margin-top: 4%;
+    }
+    .callout-p {
+        margin: 4%;
+    }
+
+    /*** ART CONTENT STYLES ***/
+    .img-full-art {
+        max-width: 1400px;
+        height: 860px;
+    }
+
+}

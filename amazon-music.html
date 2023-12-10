@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mary Frances Haws</title>
+        <!--FONTS GOOGLE-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">        <!--CSS STYLESHEETS-->
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="content.css">
+        <!--SCROLL REVEAL JS-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+    </head>
+
+    <body class="bg">
+        <nav class="nav-grid">
+            <a class="logo-item" href="index.html"><img class="logo" src="logo/mfh-logo.svg" alt="mfh logo"></a>
+            <a class="nav-header" href="index.html">Mary Frances Haws</a>
+            <ul class="menu">
+                <li><a class="menu-link underline" href="about.html">About</a></li>
+                <li><a class="menu-link underline" href="art.html">Art</a></li>
+                <li><a class="menu-link underline" href="design.html">Design</a></li>
+                <li><a class="menu-link underline" href="photography.html">Photography</a></li>
+            </ul>
+        </nav>
+        
+        <header class="content-grid">
+            <p class="page-header-content-tags-design header-full">Design * UX Research</p>
+            <h1 class="page-header-content-design header-full">Imagining Prompts for AI-Generated Playlists on Amazon Music</h1>
+            <p class=" text-full page-subheading-design">A Pratt iSchool x Amazon Music Design Challenge</p>
+            <img class="img-wide cover-image" src="design/amazon-header.png" alt="amazon cover image">
+            <div class="text-full">
+                <p>This project was completed for a design sprint hosted by Amazon Music's product team at Pratt Institute. Using generative research methods, we explored users' goals and desires for the future of music-streaming. Our high fidelity prototype, validated with user testing, incoporates an AI-generated playlist feature and a social feed called "Mix" to maximize personalization, delight, and efficiency of use.</p>
+            </div>
+            <div class="text-full">
+                <p><b>When:</b> February 2023</p>
+                <p><b>Teammates:</b> Alexis Li &amp; Angela Li</p>
+                <p><b>My Role:</b> writing survey questions, conducting user interviews, ideating, sketching, wireframing, prototyping, conducting remote usability tests, communicating designs</p>
+            </div>
+        </header>
+
+        <section class="content-grid">
+            <div class="callout">
+                <h2 class="callout-h">The Challenge</h2>
+                <p class="callout-p">What is the future of the listener's experience with music and podcasts?</p>
+                <p class="callout-p">Look 3-5 years out to develop a concept that leverages Amazon Music's offerings and reach to bridge digital, in real life, communal, and individual experiences via the use of new devices and emerging technology.</p>
+            </div>
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <h2 class="h2-design">Our Process</h2>
+                <p>The design challenge lasted for 3 weeks, in which we had to cover our 3-stage process of research, ideation, and implementation. Each stage was optimized for efficiency in a short time frame, while striving for thoroughness in documenting data and design decisions.</p>
+            </div>
+            <img class="img-wide" src="design/amazon-process.png" alt="visualization of our process">
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <p class="h2-tag">Research</p>
+                <h2 class="h2-design">Understanding Expectations</h2>
+            </div>
+            <img class="img-wide" src="design/airpals-prep.png" alt="preparation stage process">
+            <div class="text-left">
+                <h3 class="h3-design">We decided to recruit young music lovers for our research</h3>
+                <p>After familiarizing ourselves with Amazon Music's platform, <b>we defined the target user group for this project as young adults who self-define as music lovers and regularly use a subscription-based music streaming service.</b> This group selection was motivated by ease of recruitment during a short timeline. We also assumed that younger users would be most likely to adopt features with emerging technology, as required by the prompt from Amazon Music.</p>
+            </div>
+            <img class="img-right" src="design/amazon-user-profile.png" alt="user characteristics">
+            <div class="text-full">
+                <h3 class="h3-design">Next, we researched emerging trends in the music industry</h3>
+                <p>In order to understand the near futures of music streaming, we researched current industry trends and emerging technology. This uncovered mostly AI features, like generative music and personalized suggestions. Virtual reality was also being discussed in the industry, although AI seemed to be the more dominant trend.</p>
+            </div>
+            <div class="text-full">
+                <h3 class="h3-design">Playlists, personalization, and meaningful connections were central to participants’ music streaming experiences</h3>
+                <p>We surveyed 22 young music lovers and conducted 6 semi-structured interviews about music streaming interests, behaviors, and pain points. The demographics of our 28 participants are shown below.</p>
+            </div>
+            <img class="img-wide" src="design/amazon-demographics.png" alt="demographic data from surveys and interviews">
+            <div class="text-left">
+                <p>Our research into young music lovers' usage of music streaming platforms made clear their passion for music and its ability to connect them with friends and artists. <b>There was a clear desire for personalization and connection expressed by our participants, but we learned that music streaming platforms are behind in meeting these expectations.</b> Our participants believed that artist updates should be integrated into their personalized music streaming experience.</p>
+            </div>
+            <img class="img-right" src="design/amazon-findings.png" alt="main research findings">
+            <div class="callout">
+                <p class="callout-p"><i><b>“I love making personalized playlists for people. I think about the person and their vibe, and if I need to know a little more about what they like, I simply ask what kind of vibe they're looking for.”</b></i></p>
+            </div>
+            <div class="text-full">
+                <h3 class="h3-design">Two personas were created to capture the goals of connecting with friends and artists</h3>
+                <p>Based on our research results and insights, we created two personas: one captured the goal of socializing via music streaming (Isabel), and the other captured the goal of connecting with artists (Daniel). Both personas reflect the need for personalization in the pursuit of these goals.</p>
+            </div>
+            <img class="img-full" src="design/amazon-persona1.png" alt="persona for socializing goal">
+            <img class="img-full" src="design/amazon-persona2.png" alt="persona for artist connecting goal">
+            <div class="text-full">
+                <h3 class="h3-design">Our design problem aimed to solve for personalization and connectivity</h3>
+                <p>We created a problem statement to guide the next stages of our design process. The themes articulated in our research findings and personas were personalization and connectivity; we asked how our solution might reflect these themes, keeping in mind the need to incorporate emerging technology.</p>
+            </div>
+            <div class="callout">
+                <h2 class="callout-h">Problem Statement</h2>
+                <p class="callout-p">How might we help young music lovers on Amazon Music personalize their experience while connecting with their favorite artists and fellow users?</p>
+            </div>
+            <div class="text-full">
+                <h3 class="h3-design">We recognized a conflict of expectations between our users and Amazon Music</h3>
+                <p>Regarding emerging technology in music streaming, our interviewees were less enthusiastic. Most of them were more interested in their music streaming platforms getting up to speed with their expectations for personalization and connectivity. <b>With an understanding of the conflict between what our users expressed and what Amazon Music's prompt expected from this project, moved into the ideation phase with the goal of reconciling the differences.</b></p>
+            </div>
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <p class="h2-tag">Ideation</p>
+                <h2 class="h2-design">Reconciling Differences</h2>
+            </div>
+            <img class="img-wide" src="design/amazon-ideation.png" alt="preparation stage process">
+            <div class="text-full">
+                <p>The goal of the ideation phase was to find a solution that would reconcile our research findings (that users want well-integrated personalization and connectivity features) with Amazon Music's prompt to incorporate emerging technology. We needed to balance the need to innovate with the obligation to reflect the voices of target users in our designs.</p>
+                <h3 class="h3-design">We analyzed how competitors integrate personalization, connectivity, and emerging technology into their experiences</h3>
+                <p>Personalization, connectivity, and emerging technology were the themes of our exploration and problem, and motivated our choice of competitors for review. Apple Music and Spotify are major competitors of Amazon Music, but social networks and AI tools were also relevant to this analysis. We sought to capture how these platforms did or did not succeed at providing features of interest within our themes.</p>
+            </div>
+            <img class="img-full" src="design/amazon-competitors.png" alt="analysis and comparison of competitors">
+            <div class="text-left">
+                <h3 class="h3-design">Then, we discovered a potential solution in the forms of an AI-generated playlist feature and social feed</h3>
+                <p>With our research and competitive analysis in mind, we began to sketch and discuss ideas that might answer our users' needs while also incorporating emerging technology.</p>
+                <p>Two concepts became central to our discussion and designs: AI playlist prompts and a social feed.</p>
+                <p>Inspired by AI tools like DALL-E and ChatGPT, and by our research finding that personalized playlists are a core feature of music streaming, <b>we imagined a flow in which users could prompt Amazon Music to create a playlist based on desired specifications.</b> These could include a freeform prompt, new vs familiar music, genres, mood suggestions, and length. </p>
+            </div>
+            <img class="img-right" src="design/amazon-wireframe.png" alt="wireframe of AI playlist prompt screen">
+            <div class="text-full">
+                <p>We also explored how AI-generated playlists from personalized prompts, in addition to other content, could be shared with friends on Amazon Music itself. <b>We designed a social feed called “Mix” that would allow users to share content, interact with friends, and get updates from artists.</b> As we wireframed, our flow included a way for AI-generated playlists to be shared to Mix upon creation.</p>
+            </div>
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <p class="h2-tag">Implementation</p>
+                <h2 class="h2-design">Refining Designs</h2>
+            </div>
+            <img class="img-wide" src="design/amazon-implementation.png" alt="analysis stage process">
+            <div class="text-full">
+                <h3 class="h3-design">We conducted moderated user tests with the goal of refining our AI-generated playlist feature</h3>
+                <p>6 participants completed a task to create an AI-generated playlist with our wireframes, and answered follow-up questions on their perceptions of the feature and how they might use it in practice.</p>
+                <p><b>Overall, the feature was viewed positively, with all of our participants stating that they would love to have it available in their music-streaming service.</b></p>
+                <p>The tests also revealed that <b>all participants liked the option to write a freeform prompt, but half of them wanted to see examples.</b> Participants said they felt uncertain as to what they could write as a prompt.</p>
+            </div>
+            <div class="callout">
+                <p class="callout-p"><b>“I would definitely use the prompt because I like to craft playlists with specific vibes.”</b></p>
+                <p class="callout-p"><b>“It would be nice to see an example here like '80s music for spicy dinner party.’”</b></p>
+            </div>
+            <div class="text-full">
+                <p>Because participants liked the flexibility of the prompt, but also wanted guidance, <b>they struggled with the initial design that forced a choice between writing a prompt OR using presents for genre, length, and other aspects of their playlist.</b></p>
+            </div>
+            <div class="text-left">
+                <h4>What refinements were made to the designs?</h4>
+                <p>Based on these findings, our final design for the AI playlist generator integrated prompt and presets. Presets allowed for flexibility in genres, a mix of new and old music, and playlist length. An example was included below the prompt field, as well as a button to randomly generate a prompt when creative inspiration was needed.</p>
+                <p>Our final prototype integrates the AI playlist feature and Mix feed into Amazon Music's existing app. It also features a playlist title and artwork generated by ChatGPT and DALL-E respectively to enhance the AI-generated playlist feature.</p>
+            </div>
+            <img class="img-right" src="design/amazon-playlist.png" alt="prototype screen of AI playlist prompt">
+            <div class="text-left">
+                <h3 class="h3-design">A second round of user testing improved navigation to Mix, the new social feed</h3>
+                <p>5 participants completed a task to create a public AI-generated playlist, and then view it on their social feed. Follow-up interviews gave further insight into how they navigated and perceived the designs.</p>
+                <p>3 of our 5 participants had difficulty locating the Mix feed. This finding revealed a lack of feedback when a public playlist is posted to Mix, especially for a first-time use scenario. A notification badge within the global navigation was not salient enough to accomplish this.</p>
+                <p>We incorporated a tooltip for first time use to notify users that their playlist had been posted to the feed.</p>
+            </div>
+            <img class="img-right" src="design/amazon-mix.png" alt="prototype screen of Mix social feed">
+            <div class="text-full">
+                <h3 class="h3-design">Our final design reflects our users' needs for personalization and connectivity, and Amazon Music's challenge to incorporate emerging technology</h3>
+                <p>A presentation of our process and the final prototype were shared with judges from Pratt and Amazon Music.<a href="https://www.figma.com/proto/kenWo4tRa38SUp6cqW8iTe/AM-Research?page-id=0%3A1&node-id=135%3A629&viewport=-1432%2C1615%2C0.14&scaling=scale-down&starting-point-node-id=135%3A629&show-proto-sidebar=1">View the prototype here.</a></p>
+            </div>
+            <img class="img-wide" src="design/amazon-prototype.png" alt="prototype screens of AI playlist prompt, AI-generated playlist, and Mix social feed">
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <h2 class="h2-design">Future Opportunities & Reflection</h2>
+                <p>Future opportunities for personalization in Amazon Music could include prompting new playlists with Alexa and remixing friends' playlists manually or with AI. Avenues for expanding social features might include options to post recommendations or current moods relating to music, commenting on or reposting content from friends, or collaborating on AI-generated playlists with friends. Artist and events updates could grow to include live-streamed or VR events and posting ticket purchases to encourage friends to attend events.</p>
+                <p>The major success of this project was that our user testing participants were genuinely excited about our designs. They were eager to provide feedback about how they would use an AI-generated playlist feature, and all expressed that they wished the feature existed on their current music-streaming apps. I appreciated the power in finding a truly representative sample for a user group: participants provided high quality feedback because the designs directly applied to them and their own goals. The quick turnaround for this project also challenged and ultimately improved my time management skills when working with a team.</p>
+            </div>
+        </section>
+
+        <section>
+            <p class="quote"><i>"And just as music is the space between notes...<br>so the space where I exist, and I want to keep existing,<br>and to be quite frank I hope I die in, is exactly<br>this middle distance: where despair struck pure otherness<br>and created something sublime."<br>- Donna Tartt, <i>The Goldfinch</i></p>
+        </section>
+
+        <footer class="footer-bg footer-grid">
+            <a class="logo-foot-item" href="index.html"><img class="logo-foot" src="logo/mfh-logo-light.svg" alt="mfh logo"></a>
+            <a class="footer-head" href="index.html">Mary Frances Haws</a>
+            <ul class="socials">
+                <li><a href="mailto:maryfhaws@gmail.com"><img class="social-icon" src="logo/email-light.svg" onmouseover="this.src='logo/email-dark.svg';" onmouseout="this.src='logo/email-light.svg';"></a></li>
+                <li><a href="vsco.co/maryfhaws"><img class="social-icon" src="logo/vsco-light.svg" onmouseover="this.src='logo/vsco-dark.svg';" onmouseout="this.src='logo/vsco-light.svg';"></a></li>
+                <li><a href="instagram.com/maryfhaws.art/"><img class="social-icon" src="logo/insta-light.svg" onmouseover="this.src='logo/insta-dark.svg';" onmouseout="this.src='logo/insta-light.svg';"></a></li>
+                <li><a href="linkedin.com/in/maryfhaws"><img class="social-icon" src="logo/lin-light.svg" onmouseover="this.src='logo/lin-dark.svg';" onmouseout="this.src='logo/lin-light.svg';"></a></li>
+            </ul>
+            <div class="copyright">&copy; 2023 by Mary Frances Haws</div>
+        </footer>
+    </body>
+
+    <script>
+        /* SCROLL TO TOP ON LOAD */
+        if (history.scrollRestoration) {
+                history.scrollRestoration = 'manual';
+            } else {
+                window.onbeforeunload = function () {
+                    window.scrollTo(0, 0);
+                };
+            };
+
+       /* SCROLL REVEAL */
+       var slideReveal = {
+                distance: '5%',
+                easing: 'ease-in',
+                duration: 1000,
+                reset: false
+        };
+        var slideReveal2 = {
+                distance: '15px',
+                easing: 'ease-in',
+                duration: 1000,
+                reset: false
+        };
+        ScrollReveal().reveal('header', slideReveal);
+        ScrollReveal().reveal('.content-grid', slideReveal2);
+
+    </script>
+</html>

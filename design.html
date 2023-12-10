@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mary Frances Haws</title>
+        <!--FONTS GOOGLE-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">        <!--CSS STYLESHEETS-->
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="gallery.css">
+        <!--SCROLL REVEAL JS-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+    </head>
+
+    <body class="bg">
+        <nav class="nav-grid">
+            <a class="logo-item" href="index.html"><img class="logo" src="logo/mfh-logo.svg" alt="mfh logo"></a>
+            <a class="nav-header" href="index.html">Mary Frances Haws</a>
+            <ul class="menu">
+                <li><a class="menu-link underline" href="about.html">About</a></li>
+                <li><a class="menu-link underline" href="art.html">Art</a></li>
+                <li><a class="menu-link menu-link-current underline-current" href="design.html">Design</a></li>
+                <li><a class="menu-link underline" href="photography.html">Photography</a></li>
+            </ul>
+        </nav>
+        
+        <header>
+            <h1 class="page-header">Design</h1>
+        </header>
+
+        <section class="gallery-grid">
+            <div class="gallery-left-item" id="jj">
+                <img class="gallery-left-img" src="design/jj-cover.png" alt="Pages from JJ design system's documentation and UI kit">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * UX Design</p>
+                    <p class="gallery-title">Balancing Effectiveness and Fun in a Design System for Jamba Juice</p>
+                </div>
+            </div>
+            <div class="gallery-right-item" id="engram">
+                <img class="gallery-right-img" src="design/engram-cover.png" alt="Pages from Engram's website with eye tracking data">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * UX Research</p>
+                    <p class="gallery-title">Helping an AP History Education Tool Increase User Retention</p>
+                </div>
+            </div>
+
+            <div class="gallery-full-item" id="bloomberg-calendar">
+                <img class="gallery-full-img" src="design/bloomberg-cover.png" alt="mobile calendar mockups">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * UX Design</p>
+                    <p class="gallery-title">A Vision for Bloomberg's Mobile Calendar</p>
+                </div>
+            </div>
+            
+            <div class="gallery-left-item" id="airpals">
+                <img class="gallery-left-img" src="design/airpals-study.png" alt="web mockup">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * UX Research</p>
+                    <p class="gallery-title">Optimizing the Order Flow of a B2B Courier Startup</p>
+                </div>
+            </div>
+            <div class="gallery-right-item" id="amazon">
+                <img class="gallery-right-img" src="design/am1.png" alt="mobile mockups">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * UX Design</p>
+                    <p class="gallery-title">Imagining Prompts for AI-Generated Playlists on Amazon Music</p>
+                </div>
+            </div>
+
+            <div class="gallery-full-item" id="nyc-parks">
+                <img class="gallery-full-img" src="design/parks1.png" alt="desktop and mobile mockups">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * UX Design</p>
+                    <p class="gallery-title">Curating Personalized NYC Parks Experiences</p>
+                </div>
+            </div>
+            <!--
+            <div class="gallery-left-item">
+                <img class="gallery-left-img" src="design/gestalt1.png" alt="detail of web page design">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Frontend</p>
+                    <p class="gallery-title">Experimenting with Gestalt Psychology</p>
+                </div>
+            </div>
+            <div class="gallery-right-item">
+                <img class="gallery-right-img" src="art/denali.JPG" alt="">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * UX Research</p>
+                    <p class="gallery-title">Practical Ethnography for the New York Public Library</p>
+                </div>
+            </div>
+            <div class="gallery-full-item">
+                <img class="gallery-full-img" src="design/rdm1.png" alt="merch graphic design">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Graphic Design</p>
+                    <p class="gallery-title">R!CE DESIGN MERCH</p>
+                </div>
+            </div>
+            <div class="gallery-left-item">
+                <img class="gallery-left-img" src="art/denali.JPG" alt="">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Research</p>
+                    <p class="gallery-title">Social Media as a Threat to Psychological Security and Identity</p>
+                </div>
+            </div>
+            <div class="gallery-right-item">
+                <img class="gallery-right-img" src="art/denali.JPG" alt="">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Evalutation</p>
+                    <p class="gallery-title">iOS Camera</p>
+                </div>
+            </div>
+            <div class="gallery-full-item">
+                <img class="gallery-full-img" src="design/aiart1.png" alt="AI-generated art">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Research * Frontend</p>
+                    <p class="gallery-title">Exploring AI Artwork</p>
+                </div>
+            </div>
+            <div class="gallery-left-item">
+                <img class="gallery-left-img" src="art/denali.JPG" alt="">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Graphic Design</p>
+                    <p class="gallery-title">Rice Design</p>
+                </div>
+            </div>
+            <div class="gallery-right-item">
+                <img class="gallery-right-img" src="art/denali.JPG" alt="">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Freelance</p>
+                    <p class="gallery-title">Art Portfolio for Rachele Unter</p>
+                </div>
+            </div>
+            <div class="gallery-full-item">
+                <img class="gallery-full-img" src="art/denali.JPG" alt="">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Art * Freelance</p>
+                    <p class="gallery-title">Album Covers</p>
+                </div>
+            </div>
+            <div class="gallery-left-item">
+                <img class="gallery-left-img" src="design/cascade1.png" alt="detail of webpage design">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Frontend</p>
+                    <p class="gallery-title">Cascading Colors</p>
+                </div>
+            </div>
+            <div class="gallery-right-item">
+                <img class="gallery-right-img" src="design/fencing1.png" alt="t-shirt graphic design">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Graphic Design</p>
+                    <p class="gallery-title">Rice T-Shirts</p>
+                </div>
+            </div>
+            -->
+        </section>
+
+        <section>
+            <p class="quote"><i>"The associative and conceptualizing activities of the human mind go on constantly<br>and transpire in an instant. We see everything within a frame of meaning."<br>- Thomas McEvilley,</i> On the Manner of Addressing Clouds</p>
+        </section>
+
+        <footer class="footer-bg footer-grid">
+            <a class="logo-foot-item" href="index.html"><img class="logo-foot" src="logo/mfh-logo-light.svg" alt="mfh logo"></a>
+            <a class="footer-head" href="index.html">Mary Frances Haws</a>
+            <ul class="socials">
+                <li><a href="mailto:maryfhaws@gmail.com"><img class="social-icon" src="logo/email-light.svg" onmouseover="this.src='logo/email-dark.svg';" onmouseout="this.src='logo/email-light.svg';"></a></li>
+                <li><a href="vsco.co/maryfhaws"><img class="social-icon" src="logo/vsco-light.svg" onmouseover="this.src='logo/vsco-dark.svg';" onmouseout="this.src='logo/vsco-light.svg';"></a></li>
+                <li><a href="instagram.com/maryfhaws.art/"><img class="social-icon" src="logo/insta-light.svg" onmouseover="this.src='logo/insta-dark.svg';" onmouseout="this.src='logo/insta-light.svg';"></a></li>
+                <li><a href="linkedin.com/in/maryfhaws"><img class="social-icon" src="logo/lin-light.svg" onmouseover="this.src='logo/lin-dark.svg';" onmouseout="this.src='logo/lin-light.svg';"></a></li>
+            </ul>
+            <div class="copyright">&copy; 2023 by Mary Frances Haws</div>
+        </footer>
+    </body>
+
+    <script>
+        /* SCROLL TO TOP ON LOAD */
+        if (history.scrollRestoration) {
+                history.scrollRestoration = 'manual';
+            } else {
+                window.onbeforeunload = function () {
+                    window.scrollTo(0, 0);
+                };
+            };
+
+       /* SCROLL REVEAL */
+       var slideReveal = {
+                distance: '5%',
+                easing: 'ease-in',
+                duration: 1000,
+                reset: false
+        };
+        var slideReveal2 = {
+                distance: '15px',
+                easing: 'ease-in',
+                duration: 1000,
+                reset: false
+        };
+        ScrollReveal().reveal('header', slideReveal);
+        ScrollReveal().reveal('.gallery-grid', slideReveal2);
+        ScrollReveal().reveal('.gallery-full-item', slideReveal);
+        ScrollReveal().reveal('.gallery-left-item', slideReveal);
+        ScrollReveal().reveal('.gallery-right-item', slideReveal);
+
+        /* GALLERY HOVER EFFECTS */
+        /*** FULL ITEM ***/
+        var fullItems = document.getElementsByClassName("gallery-full-item");
+        for(var i=0; i < fullItems.length; i++) {
+            fullItems[i].addEventListener("mouseover", function(event){
+                this.firstElementChild.classList.add("gallery-full-img-hover");
+                this.lastElementChild.classList.add("gallery-text-hover");
+                this.style.border = "3px solid #6A77B7";
+            });
+            fullItems[i].addEventListener("mouseleave", function(event){
+                this.firstElementChild.classList.remove("gallery-full-img-hover");
+                this.lastElementChild.classList.remove("gallery-text-hover");
+                this.style.border = "none";
+            });
+        };
+        /*** LEFT ITEM ***/
+        var leftItems = document.getElementsByClassName("gallery-left-item");
+        for(var i=0; i < leftItems.length; i++) {
+            leftItems[i].addEventListener("mouseover", function(event){
+                this.firstElementChild.classList.add("gallery-left-img-hover");
+                this.lastElementChild.classList.add("gallery-text-hover");
+                this.style.border = "3px solid #4A6C5C";
+            });
+            leftItems[i].addEventListener("mouseleave", function(event){
+                this.firstElementChild.classList.remove("gallery-left-img-hover");
+                this.lastElementChild.classList.remove("gallery-text-hover");
+                this.style.border = "none";
+            });
+        };
+        /*** RIGHT ITEM ***/
+        var rightItems = document.getElementsByClassName("gallery-right-item");
+        for(var i=0; i < rightItems.length; i++) {
+            rightItems[i].addEventListener("mouseover", function(event){
+                this.firstElementChild.classList.add("gallery-right-img-hover");
+                this.lastElementChild.classList.add("gallery-text-hover");
+                this.style.border = "3px solid #4A6C5C";
+            });
+            rightItems[i].addEventListener("mouseleave", function(event){
+                this.firstElementChild.classList.remove("gallery-right-img-hover");
+                this.lastElementChild.classList.remove("gallery-text-hover");
+                this.style.border = "none";
+            });
+        };
+
+        /* GALLERY LINKS */
+        var jj = document.getElementById("jj");
+        jj.addEventListener("click", function(event){
+            window.location = "jj.html";
+        });
+        var engram = document.getElementById("engram");
+        engram.addEventListener("click", function(event){
+            window.location = "engram.html";
+        });
+        var bloombergCalendar = document.getElementById("bloomberg-calendar");
+        bloombergCalendar.addEventListener("click", function(event){
+            window.location = "bloomberg-calendar.html";
+        });
+        var airpals = document.getElementById("airpals");
+        airpals.addEventListener("click", function(event){
+            window.location = "airpals.html";
+        });
+        var amazon = document.getElementById("amazon");
+        amazon.addEventListener("click", function(event){
+            window.location = "amazon-music.html";
+        });
+        var nycParks = document.getElementById("nyc-parks");
+        nycParks.addEventListener("click", function(event){
+            window.location = "nyc-parks.html";
+        });
+    </script>
+</html>

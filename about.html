@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mary Frances Haws</title>
+        <!--FONTS GOOGLE-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">        <!--CSS STYLESHEETS-->
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="content.css">
+        <!--SCROLL REVEAL JS-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+        </script>
+    </head>
+
+    <body class="bg">
+        <nav class="nav-grid">
+            <a class="logo-item" href="index.html"><img class="logo" src="logo/mfh-logo.svg" alt="mfh logo"></a>
+            <a class="nav-header" href="index.html">Mary Frances Haws</a>
+            <ul class="menu">
+                <li><a class="menu-link menu-link-current underline-current" href="about.html">About</a></li>
+                <li><a class="menu-link underline" href="art.html">Art</a></li>
+                <li><a class="menu-link underline" href="design.html">Design</a></li>
+                <li><a class="menu-link underline" href="photography.html">Photography</a></li>
+            </ul>
+        </nav>
+        
+        <header>
+            <h1 class="page-header">About</h1>
+        </header>
+
+        <section class="content-grid">
+            <div class="text-left">
+                <h2>Hi! I'm Mary --</h2>
+                <p>— a problem solver with a passion for art, cognitive psychology, technology, and ethics. I'm always willing to try new things, which led me to combine my passions and discover my interest in design.</p>
+                <p>Feel free to explore my portfolio, from my drawings and oil paintings, to the UX designs and research, to a selection of my photo journal. I hope my love of meaningful design is apparent, as I'm constantly observing my surroundings to inspire my next creation.</p>
+            </div>
+            <img class="img-right" src="mary.jpg" alt="Picture of me">
+        </section>
+
+        <section class="content-grid">
+            <img class="img-full" src="bubblechart.svg" alt="My interests">
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <h3>Education</h3>
+                <p><b>Current M.S. Information Experience Design Student @ Pratt Institute (New York, New York)</b><br>Expected graduation May 2024</p>
+                <p><b>B.A. Cognitive Sciences @ Rice University (Houston, Texas)</b><br>Class of 2022</p>
+            </div>
+            <div class="text-full">
+                <h3>Experience</h3>
+                <p><b>UX Consultant @ Pratt Center for Digital Experiences</b><br>March - May 2023, September 2023 - present</p>
+                <p><b>UX Design Intern @ Bloomberg LP</b><br>June - August 2023</p>
+                <p><b>Freelance Artist and Designer</b><br>Since April 2022</p>
+                <p><b>Human-Centered Design Intern @ EMPLOYERS&reg; Insurance</b><br>June 2022 - February 2023</p>
+                <p><b>Architecture Intern @ Architectura</b><br>June - August 2021</p>
+            </div>
+        </section>
+
+        <section class="content-grid">
+            <img class="img-full" src="photography/room.JPG" alt="Photo of room">
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <h2>More about me</h2>
+                <p>&#128444; Current favorite painters: Helen Lundeberg, Mark Rothko, and Vincent Van Gogh</p>
+                    <p>&#127911; Apple Music playing 24/7 (mostly Valley, Surfaces, and The Beach Boys)</p>
+                    <p>&#127794; Lover of nature and hiking</p>
+                    <p>&#9749; Aspiring latte artist and surfer</p>
+                    <p>&#128218; Book recommendations: <i>A Tree Grows in Brooklyn</i> by Betty Smith, <i>The Waves</i> by Virginia Woolf, and <i>Ways of Being</i> by James Bridle</p>
+            </div>
+        </section>
+
+        <section>
+            <p class="quote"><i>"She was all of these things and of something more... It was what God or whatever His equivalent<br>puts into each soul that is given life — the one different thing such as that which makes<br>no two fingerprints on the face of the earth alike."<br>- Betty Smith,</i> A Tree Grows in Brooklyn</p>
+        </section>
+
+        <footer class="footer-bg footer-grid">
+            <a class="logo-foot-item" href="index.html"><img class="logo-foot" src="logo/mfh-logo-light.svg" alt="mfh logo"></a>
+            <a class="footer-head" href="index.html">Mary Frances Haws</a>
+            <ul class="socials">
+                <li><a href="mailto:maryfhaws@gmail.com"><img class="social-icon" src="logo/email-light.svg" onmouseover="this.src='logo/email-dark.svg';" onmouseout="this.src='logo/email-light.svg';"></a></li>
+                <li><a href="vsco.co/maryfhaws"><img class="social-icon" src="logo/vsco-light.svg" onmouseover="this.src='logo/vsco-dark.svg';" onmouseout="this.src='logo/vsco-light.svg';"></a></li>
+                <li><a href="instagram.com/maryfhaws.art/"><img class="social-icon" src="logo/insta-light.svg" onmouseover="this.src='logo/insta-dark.svg';" onmouseout="this.src='logo/insta-light.svg';"></a></li>
+                <li><a href="linkedin.com/in/maryfhaws"><img class="social-icon" src="logo/lin-light.svg" onmouseover="this.src='logo/lin-dark.svg';" onmouseout="this.src='logo/lin-light.svg';"></a></li>
+            </ul>
+            <div class="copyright">&copy; 2023 by Mary Frances Haws</div>
+        </footer>
+    </body>
+
+    <script>
+        /* SCROLL TO TOP ON LOAD */
+        if (history.scrollRestoration) {
+                history.scrollRestoration = 'manual';
+        } else {
+            window.onbeforeunload = function () {
+                window.scrollTo(0, 0);
+            };
+        };
+
+        /* SCROLL REVEAL FOR CONTENT */
+        var slideReveal = {
+                distance: '5%',
+                easing: 'ease-in',
+                duration: 1000,
+                reset: false
+        };
+        var slideReveal2 = {
+                distance: '15px',
+                easing: 'ease-in',
+                duration: 1000,
+                reset: false
+        };
+        ScrollReveal().reveal('header', slideReveal);
+        ScrollReveal().reveal('.text-left', slideReveal2);
+        ScrollReveal().reveal('.img-right', slideReveal2);
+        ScrollReveal().reveal('.text-full', slideReveal2);
+        ScrollReveal().reveal('.img-full', slideReveal2);
+
+        /* GALLERY SCROLL REVEAL */
+        var slideReveal = {
+                distance: '5%',
+                easing: 'ease-in',
+                duration: 1000,
+                reset: false
+        };
+        ScrollReveal().reveal('header', slideReveal);
+        ScrollReveal().reveal('.gallery-full-item', slideReveal);
+        ScrollReveal().reveal('.gallery-left-item', slideReveal);
+        ScrollReveal().reveal('.gallery-right-item', slideReveal);
+    </script>
+</html>
