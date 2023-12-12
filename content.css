@@ -33,6 +33,7 @@ h3 {
     font-style: normal;
     font-size: 1.2em;
     color: var(--spruce);
+    margin-bottom: 0;
 }
 h4 {
     font-family: 'Jost', sans-serif;
@@ -50,7 +51,8 @@ p {
     font-size: 1em;
     color: var(--midnight);
     text-align: left;
-    line-height: 1.75em;
+    line-height: 1.7em;
+    margin-bottom: 0;
 }
 
 /* CONTENT GRID */
@@ -145,6 +147,16 @@ p {
 
 /* CONTENT STYLES */
 /*** IMAGES AND TEXT ***/
+video {
+    grid-column: 2 / 16;
+    height: 400px;
+    width: auto;
+    justify-self: center;
+    align-self: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .text-full {
     grid-column: 2 / 16;
     justify-self: start;
@@ -185,7 +197,7 @@ p {
     width: 300px;
     height: auto;
     justify-self: end;
-    align-self: start;
+    align-self: center;
     margin-bottom: 30px;
 }
 
@@ -200,7 +212,7 @@ p {
     width: 350px;
     height: auto;
     justify-self: end;
-    align-self: start;
+    align-self: center;
     margin-bottom: 30px;
 }
 
@@ -310,6 +322,14 @@ p {
     }
 
     /*** IMAGES AND TEXT ***/
+    video {
+        grid-column: 2 / 3;
+        width: 300px;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
     .text-full, .text-left, .text-left-narrow {
         grid-column: 2 / 3;
     }
@@ -397,6 +417,11 @@ p {
     }
 
     /*** IMAGES AND TEXT ***/
+    video {
+        height: 680px;
+        width: auto;
+    }
+
     .img-full {
         max-width: 1400px;
         height: 680px;
