@@ -24,14 +24,14 @@ h2 {
     font-family: 'Jost', sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.8em;
     color: var(--plum);
 }
 h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.2em;
+    font-size: 1.4em;
     color: var(--spruce);
     margin-bottom: 0;
 }
@@ -39,7 +39,7 @@ h4 {
     font-family: 'Jost', sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 1.1em;
+    font-size: 1.2em;
     letter-spacing: 0.01em;
     color: var(--midnight);
     margin-top: 25px;
@@ -98,13 +98,14 @@ p {
     text-transform: uppercase;
     padding: 0;
     padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 .page-header-content-design {
     font-family: 'Jost', sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 1.8em;
+    font-size: 2.2em;
     color: var(--midnight);
     padding: 0;
     margin: 0;
@@ -114,7 +115,7 @@ p {
     font-family: 'ShurikenStd-Boy', serif;
     font-style: normal;
     color: var(--feather);
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.2em;
     padding: 0;
     padding-top: 50px;
@@ -124,7 +125,7 @@ p {
     font-family: 'Jost', sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 1.3em;
+    font-size: 1.4em;
     color: var(--feather);
     padding: 0;
     margin: 0;
@@ -139,7 +140,7 @@ p {
     font-weight: 600;
     font-style: normal;
     color: var(--feather);
-    font-size: 0.8em;
+    font-size: 0.9em;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     padding: 0;
@@ -377,13 +378,13 @@ video {
 
     /*** DEFAULT STYLES ***/
     h2 {
-        font-size: 1.6em;
+        font-size: 2.1em;
     }
     h3 {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     h4 {
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     p {
         font-size: 1.3em;
@@ -403,17 +404,17 @@ video {
     }
     
     .page-header-content-design {
-        font-size: 2.1em;
+        font-size: 2.5em;
     }
     .page-header-content-tags-design {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .page-subheading-design {
-        font-size: 1.6em;
+        font-size: 1.7em;
     }
     
     .h2-tag {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     /*** IMAGES AND TEXT ***/
