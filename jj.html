@@ -39,7 +39,7 @@
             </div>
             <div class="text-full">
                 <p><b>When:</b> September - December 2023</p>
-                <p><b>Teammates:</b> Alexis Li &amp; Keyi Zhang</p>
+                <p><b>Team:</b> Mary Haws (me), Alexis Li, &amp; Keyi Zhang</p>
                 <p><b>My Role:</b> standardizing UI elements, creating components, evaluating accessibility, articulating design values, branding, writing documentation, pitching the design system</p>
             </div>
         </header>
@@ -47,163 +47,182 @@
         <section class="content-grid">
             <div class="text-full">
                 <h2 class="h2-design">About Jamba Juice: “Making eating better, easier, and more fun”</h2>
-                <p>Since its founding in California in 1990, <a href="https://www.jamba.com">Jamba Juice</a> has been whipping up fresh smoothies and juices, later expanding its menu to include healthy food and snacks. Jamba's mission is to promote wellness and fun, values which are reflected throughout their brand and products. This quick-service smoothie and juice bar chain now serves customers in the United States, the Philippines, South Korea, Taiwan, and Thailand. </p>
+                <p>Founded in California in 1990, <a href="https://www.jamba.com">Jamba Juice</a> is a smoothie and juice bar chain. Jamba's mission is to promote wellness and fun while providing fast and reliable service, values which are reflected throughout their brand and products.</p>
             </div>
             <img class="img-full" src="design/jj-jamba-home.png" alt="Homepage of jamba.com">
-            <div class="text-left">
-                <h3 class="h3-design">What would a design system for Jamba Juice look like?</h3>
-                <p>This is one of the first questions we asked ourselves once our team chose Jamba Juice as our target for a new design system. To answer this question, we familiarized ourselves with the Jamba brand by exploring the website, browsing social media, and reading about the chain's history.</p>
-                <p>Because a design system is another product of the company for which it is created, we wanted to fully digest the voice, products, and essence of Jamba. With Jamba's commitment to wellness and fun in mind, we could build a more cohesive system.</b></p>
-            </div>
-            <img class="img-right" src="design/jj-instagram.png" alt="A image from @jambajuice on Instagram reading: 'if a smoothie can be a bowl, you can be anything.' The camption reads: 'The kind of positivity we all need tbh'">
         </section>
 
         <section class="content-grid">
             <div class="text-full">
-                <h2 class="h2-design">We collected and categorized the UI elements on Jamba's website to identify inconsistent and inaccessible patterns</h2>
-                <h3 class="h3-design">Step 1: Creating a UI inventory</h3>
-                <p>We conducted an audit of Jamba's website by screen-capturing every element we came across, pasting our screen captures into a Figma board, and placing them into categories. These categories included: <b>colors, typography, headers, buttons, icons, cards, banners, modals, forms, and more.</b></p>
+                <p class="h2-tag">The Problem</p>
+                <h2 class="h2-design">Why might Jamba Juice need a design system?</h2>
+                <p>Jamba's website and brand foster colorful and cheerful experiences. However, <b>the website contains inconsistencies and accessibility issues,</b> suggesting that the company is not using a design system. </p>
+                <p>We saw Jamba as a good candidate for a design system that would capture its abundance of fun and colorful elements, while ensuring that they are consistent and accessible.</p>
             </div>
-            <img class="img-full" src="design/jj-ui-inventory.png" alt="Jamba.com UI Inventory">
+        </section>
+
+        <section class="content-grid">
             <div class="text-full">
-                <h3 class="h3-design">Step 2: Finding inconsistencies and planning for standardization</h3>
-                <p>Next, we examined the UI categories for inconsistencies in their elements, while also considering how we might standardize them as eventual components of a system that would be built in Figma. Considering <b>how our categorization and standardization of these elements would translate into a usable UI kit and documentation site</b> was key to this step--we kept the eventual users (designers and developers) in mind throughout this process.</b></p>
+                <p class="h2-tag">Our Process</p>
+                <h2 class="h2-design">What steps did we take to create a design system?</h2>
+            </div>
+            <img class="img-wide" src="design/jj-process.png" alt="Diagram of our 4 step process: creating a UI inventory, defining brand and values, building a UI kit, and writing documentation">
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <p class="h2-tag">Step 1 of 4: Creating a UI Inventory</p>
+                <h2 class="h2-design">We created a UI inventory of Jamba's website to identify inconsistent and inaccessible patterns</h2>
+            </div>
+            <img class="img-wide" src="design/jj-inventory.png" alt="Diagram showing the substeps to create a UI inventory: collecting UI elements, identifying inconsistencies, evaluating accessibility">
+            <div class="text-full">
+                <h3 class="h3-design">UI elements were collected and categorized</h3>
+                <p>Following the <a href="https://bradfrost.com/blog/post/interface-inventory/">guidance of Brad Frost</a>, we screen-captured every element on the Jamba website, pasted the images onto a Figma board, and categorized them. The categories included: <b>colors, typography, headers, buttons, icons, cards, banners, modals, forms, and more.</b></p>
+            </div>
+            <img class="img-wide" src="design/jj-ui-inventory.png" alt="Jamba.com UI Inventory">
+            <div class="text-full">
+                <h3 class="h3-design">We identified inconsistencies to improve standardization</h3>
+                <p>We examined the UI categories for inconsistencies in their elements, while also considering how they could be <b>standardized as components in a system.</b></p>
+            </div>
+            <div class="text-left">
+                <p>One example of an inconsistency occurs in the modals: they had <b>different text alignments</b> (center vs. left) and <b>various button colors</b> (green vs. yellow) with no clear logic motivating those distinctions. We planned for left-aligned text and green primary buttons in all modals of this type.</p>
+                <p><b>Standardizing helped streamline our entire process,</b> as we wanted the components in the system to be <b>easy for users to adopt.</b></p>
+            </div>
+            <img class="img-right" src="design/jj-modals.png" alt="A collection of modals from the Jamba website showing their inconsistencies in text alignment and button color">
+            <div class="text-full">
+                <h3 class="h3-design">We evaluated the accessibility of each element</h3>
+                <p>This final step before building the actual design system ensured that <b>the elements would have a foundation in usability and inclusivity.</b> We checked each component using the <a href="https://www.w3.org/TR/WCAG20/">WCAG</a>. Considering accessibility upfront saved time and reinforced Jamba's values of wellbeing, inclusivity, and efficiency.</p>
             </div>
             <div class="text-left-narrow">
-                <p>We found inconsistencies in several elements on the site. The modals, for instance, were revealed to have <b>different text alignments</b> (center vs. left) and <b>various button colors</b> (green vs. yellow) with no clear logic motivating those distinctions.</p>
-                <p>We planned for left-aligned text and green primary buttons in all modals of this type. <b>Standardizing at this stage helped us streamline our process.</b></p>
-            </div>
-            <img class="img-right-wide" src="design/jj-modals.png" alt="A collection of modals from the Jamba website showing their inconsistencies in text alignment and button color">
-            <div class="text-full">
-                <h3 class="h3-design">Step 3: Evaluating and improving the accessibility of each element</h3>
-                <p>This final preparatory step before we began to build the actual design system ensured that <b>the elements have a foundation in usability and inclusivity.</b> Considering accessibility upfront would save us valuable time as we construct components and articulate documentation, as well as reinforce Jamba's values of wellbeing and efficiency.</b></p>
-            </div>
-            <div class="text-left-narrow">
-                <p>One example of an accessibility issue that we uncovered was the use of <b>different text styles for a single phrase or sentence</b> in banners. The difference is jarring given it mixes a handwriting font with a bold sans-serif font. </p>
-                <p>We want users to have a smooth experience, so we planned to <b>fix this and other accessibility issues in our UI kit and documentation.</b></p>
+                <p>One example of an accessibility issue that we uncovered was the use of <b>different text styles for a single phrase or sentence</b> in banners. The difference is jarring since it mixes a thin, handwritten font with a bold, sans-serif font. </p>
+                <p>Planning to fix this issues and others in our system ensured that <b>accessibility would be built into to our system.</b></p>
             </div>
             <img class="img-right-wide" src="design/jj-banners.png" alt="A collection of banners from the Jamba website showing their accessibility issue of different text styles in a single phrase or sentence">
         </section>
 
         <section class="content-grid">
             <div class="text-full">
+                <p class="h2-tag">Step 2 of 4: Defining Brand &amp; Values</p>
                 <h2 class="h2-design">Our design system needed a name and a set of values to start coming to life</h2>
             </div>
+            <img class="img-wide" src="design/jj-values-brand.png" alt="Diagram of the substeps to define brand and values: research the Jamba brand, naming the system, articulating design values">
+            <div class="text-left">
+                <h3 class="h3-design">Embracing the Jamba brand would help our system feel like a Jamba product</h3>
+                <p>As a (hypothetical) product of Jamba Juice, we wanted our design system to closely align with the company brand and values. We explored the brand to better <b>represent the voice, product, and essence of Jamba.</b></p>
+            </div>
+            <img class="img-right" src="design/jj-instagram.png" alt="Instagram post by @jambajuice: 'if a smoothie can be a bowl, you can be anything'">
             <div class="text-left">
                 <h3 class="h3-design">We named our system “JJ,” short for Jamba Juice and its playful brand</h3>
                 <p>Choosing a human name helped make our design system feel <b>uniquely personified,</b> and allowed us to <b>embrace the fun side of Jamba.</b> JJ was then ready to come to life through design values, a UI kit, and documentation.</b></p>
             </div>
             <img class="img-right" src="design/jj-logo.png" alt="Logo for JJ based on the Jamba Juice logo">
             <div class="text-full">
-                <h3 class="h3-design">JJ's values combine the benefits of a design system, our team's personal design principles, and Jamba's mission</h3>
-                <p>Articulating JJ's values meant finding common ground among these three sets of priorities. JJ's three core design values are <b>delight, efficiency, and inclusivity.</b> Read more about JJ's values in the <a href="https://zeroheight.com/9c2bd2832/p/88d73c-jjs-design-values">documentation</a>.</p>
+                <h3 class="h3-design">JJ's values combine Jamba's mission with our team's personal design principles</h3>
+            </div>
+
+            <img class="img-wide" src="design/jj-3-values.png" alt="JJ's 3 design values are delight, efficiency, and inclusivity">
+
+            <div class="text-full">
+                <p>Read more about JJ's values in the <a href="https://zeroheight.com/9c2bd2832/p/88d73c-jjs-design-values">documentation</a>.</p>
             </div>
         </section>
 
         <section class="content-grid">
             <div class="text-full">
+                <p class="h2-tag">Step 3 of 4: Building a UI Kit</p>
                 <h2 class="h2-design">We built a UI kit of reusable styles, tokens, and components</h2>
-                <h3 class="h3-design">Step 1: Defining a color palette and tokens</h3>
-                <p>We used our UI inventory to take stock of all the colors on Jamba's website. Starting with the 4 main colors from Jamba's logo and 1 neutral color from the site, we created <b>color ramps for 5 hues with 7 levels of tints and shades.</b> We matched the color variation on the website as closely as possible during this process while also filling out the ramps with additional tints and shades as needed.</b></p>
+            </div>
+            <img class="img-wide" src="design/jj-kit.png" alt="Diagram showing the substeps to build a UI kit: create color palette and tokens, build flexible components, integrate image components, organize subcomponents, conduct user testing">
+            <div class="text-full">
+                <h3 class="h3-design">Creating a color palette and color tokens meets the needs of designers and developers</h3>
+                <p>Our UI inventory included all the colors on Jamba's website, which we used to create <b>color ramps for 5 hues with 7 levels of tints and shades.</b> We matched the color variation on the website as closely as possible during this process.</p>
             </div>
             <img class="img-full" src="design/jj-colors.png" alt="Color ramps of 7 tints and shades for dark green, light green, yellow, orange, and neutral hues">
             <div class="text-left">
-                <p>With Jamba's brand colors defined, we needed to devise a token system for JJ through which <b>colors could be efficiently managed by designers and integrated by developers.</b> We structured the color tokens in 3 levels:</p>
+                <p>With Jamba's brand colors defined, we devised a color token system for JJ, through which <b>colors could be efficiently managed by designers and integrated by developers.</b> We structured the color tokens in 3 levels:</p>
                 <ul>
                     <li><p><b>Level 1</b> captures the 35 brand colors with their hex codes</p></li>
                     <li><p><b>Level 2</b> contains the colors used in the site, referencing their Level 1 values</p></li>
                     <li><p><b>Level 3</b>  defines the colors used for each type of element using semantic token labels, and referencing their Level 2 values</p></li>
                 </ul>
-                <p>JJ has a total of <b>107 color tokens</b> that allow for flexible customization and collaboration. Read more about JJ's color palette and token labels in the <a href="https://zeroheight.com/9c2bd2832/p/51a590-colors/b/3995d0">documentation</a>.</p>
+                <p>JJ has a total of <b>107 color tokens</b> that allow for <b>flexible customization and collaboration.</b> Read more about JJ's color palette and token system in the <a href="https://zeroheight.com/9c2bd2832/p/51a590-colors/b/3995d0">documentation</a>.</p>
             </div>
             <img class="img-right" src="design/jj-color-tokens.png" alt="Diagram showing a hex code (#117058) translated to a Level 1 token (dark-green-600) to a Level 2 token (primary-default) to a Level 3 token (button-primary)">
             <div class="text-full">
-                <h3 class="h3-design">Step 2: Creating components that work seamlessly together</h3>
-                <p>To make JJ as effective and efficient as possible, we utilized component properties and variants, instance swapping, and auto layout in Figma. This allowed us to make <b>components that are modular, nested, and fit together in a variety of ways.</b></p>
+                <h3 class="h3-design">We built flexible components that work seamlessly together</h3>
+                <p>To make JJ as effective and efficient as possible, we utilized properties, variants, instance swapping, and auto layout in Figma. This allowed us to make <b>components that are modular, nested, and fit together in a variety of ways.</b></p>
             </div>
-            <div class="text-left">
-                <p>The <b>flexible characteristics of JJ</b> are demonstrated by the form component that we created, and its function at higher and lower levels. Forms are composed of slots that can be swapped with any other component. We built other components, like a full page modal, that contain the form component. <b>Using a full page modal component means that a designer will also use the form component, slot components, and any other component of their choice when the slot is swapped.</b></p>
+            <div class="text-left-narrow">
+                <p>An example of a <b>flexible component in JJ</b> is the slot. Slots make up forms, which can be contained in other components like full page modals. This nesting of the slot component means that, <b>when using a full page modal, a designer also uses the form component, slot components, and any other component of their choice when the slot is swapped.</b></p>
             </div>
-            <img class="img-right" src="design/jj-form.png" alt="Diagram showing slots nested in forms nested in full page modals, and that slots can be swapped with any other component">
+            <img class="img-right-wide" src="design/jj-form.png" alt="Diagram showing slots nested in forms nested in full page modals, and that slots can be swapped with any other component">
+            <div class="text-full">
+                <h3 class="h3-design">See JJ's nested components in action:</h3>
+            </div>
             <video controls>
                 <source src="video/jj-form-demo.mp4" type="video/mp4">
             </video>
             <div class="text-full">
-                <p>Similar techniques for seamless customization were applied to all of JJ's components whenever possible. Open the <a href="https://www.figma.com/community/file/1304863825837849568/jj-ui-kit">JJ UI Kit</a> in Figma to explore all 25 components and 222 variants.</p>
+                <p>Similar <b>techniques for seamless customization were applied to all of JJ's components</b> whenever possible. Open the <a href="https://www.figma.com/community/file/1304863825837849568/jj-ui-kit">JJ UI Kit</a> in Figma to explore all 25 components and 222 variants.</p>
             </div>
             <div class="text-full">
-                <h3 class="h3-design">Step 3: Integrating Jamba's images into JJ's UI kit to maximize the fun and flexibility of the components</h3>
-                <p>The images on Jamba's website are colorful and eye-catching, effectively communicating Jamba's brand and illustrating its products and services. The images play a crucial part in many of the components we built, but there were too many images to represent in the main components.</p>
-                <p>Our solution gives designers access to <b>269 images, which are integrated into the UI kit as component variants.</b> The images are categorized by their role in Jamba's website so that they are easily navigable. Explore images in the <a href="https://www.figma.com/community/file/1304863825837849568/jj-ui-kit">JJ UI Kit</a>.</p>
+                <h3 class="h3-design">Integrating Jamba's images into the UI kit maximized the fun and flexibility of the components</h3>
+                <p>Images <b>illustrate the fun brand, products, and services</b> on Jamba's website. So, the images also play a crucial part in the components we built.</p>
+                <p><b>269 images are integrated into the UI kit as components and variants.</b> Designers simply have to swap the image built into a component with another variant to <b>quickly create colorful mockups and prototypes.</b> Explore images in the JJ UI Kit. Explore images in the <a href="https://www.figma.com/community/file/1304863825837849568/jj-ui-kit">JJ UI Kit</a>.</p>
             </div>
             <img class="img-wide" src="design/jj-images.png" alt="The image components in JJ's UI kit">
             <div class="text-full">
-                <p>With this large selection of images to work with, designers can <b>easily create colorful, high-fidelity mockups and prototypes.</b> They simply have to swap the image that is built into a component with another variant.</p>
+                <h3 class="h3-design">See JJ's images in action:</h3>
             </div>
             <video controls>
                 <source src="video/jj-image-demo.mp4" type="video/mp4">
             </video>
-            <div class="text-left">
-                <h3 class="h3-design">Step 4: Deciding where to put subcomponents</h3>
-                <p>Prioritizing flexibility in JJ's components meant that many components were complex combinations of other components. When these subcomponents were only used in one or two components, we questioned how to include them in UI kit without confusing designers.</p>
-                <p><b>Our solution was to create separate but related frames to show which of the component types had unique subcomponents.</b> For example, the header component has a unique style of links, which is shown beneath the headers in the <a href="https://www.figma.com/community/file/1304863825837849568/jj-ui-kit">UI kit</a>.</p>
-            </div>
-            <img class="img-right" src="design/jj-header.png" alt="Header components and subcomponents in the UI kit">
-            <div class="text-left">
-                <h3 class="h3-design">Step 5: Evaluating and improving the accessibility of each element (again!)</h3>
-                <p>We double-checked our notes from the UI inventory on improving the accessibility of the components. This second round of auditing accessibility also <b>ensured that color combinations met the minimum contrast ration of 4.5:1,</b> and that focus states were included for all interactive components.</p>
-            </div>
-            <img class="img-right" src="design/jj-buttons.png" alt="Buttons with accessible color contrast and focus mode">
             <div class="text-full">
-                <h3 class="h3-design">Step 6: User testing the UI kit and applying feedback</h3>
-                <p>When our UI kit was ready, we published it to the Figma community for other designers (our classmates and professor) to test and give us feedback. We observed as they used the kit to build a page from Jamba's website, noting what they liked and disliked.</p>
+                <h3 class="h3-design">Testing the UI kit with other designers helped improve its usability</h3>
+                <p>When our UI kit was ready, we published it to the Figma community for other designers (our classmates and professor) to test and give feedback. <b>We observed as they used the kit to build a page from Jamba's website,</b> noting what was easy or difficult to use.</p>
             </div>
-            <div class="text-left">
-                <p>The most important piece of feedback we received was that <b>users didn't know what frame size to use, and how to ensure they were spacing components properly.</b> To fix this issue, we added clearer layout guidelines to the kit, and a ready-made frame for them to use.</p>
+            <div class="text-left-narrow">
+                <p>We found that <b>users didn't know what frame size to use, and how to ensure they were spacing components properly.</b> To fix this issue, we added clearer layout guidelines to the kit, and a prepared frame for them to use.</p>
             </div>
-            <img class="img-right" src="design/jj-layout.png" alt="Layout grids showing margins, columns, and gutters with pixel widths for screens above 1220px">
+            <img class="img-right-wide" src="design/jj-layout.png" alt="Layout grids showing margins, columns, and gutters with pixel widths for screens above 1220px">
             <div class="text-full">
-                <p>We also received positive feedback from our professor about the usability of JJ's UI Kit:</p>
-            </div>
-            <div class="callout extra-margin">
-                <p class="callout-p"><b>“This is where your UI kit shines. Using your system is straightforward and easy, and the way you defined your components with properties and variants is intuitive and effective.</b></p>
-                <p class="callout-p"><b>It took me a second to figure out how to switch between the images, but it all made perfect sense once I did.”</b></p>
+                <p>We also received positive feedback about the usability of JJ's UI kit:</p>
+                <h3 class="h3-design"><i>“Using your system is straightforward and easy, and the way you defined your components with properties and variants is intuitive and effective."</i></h3>
             </div>
         </section>
 
         <section class="content-grid">
             <div class="text-full">
+                <p class="h2-tag">Step 4 of 4: Writing Documentation</p>
                 <h2 class="h2-design">We aimed to write documentation for JJ that was both straightforward and fun</h2>
             </div>
+            <img class="img-wide" src="design/jj-documentation.png" alt="Diagram of steps to write documentation: apply systems thinking, incorporate fun language">
             <div class="text-full">
-                <p>Because fun was integral in the creation of our UI kit, we asked ourselves: <b>how do you make a design system's documentation fun?</b> Documentation should be clear, concise, and usable. We wanted to inject Jamba's colorful brand into our documentation site without irritating its users with unnecessary flairs that could distract or slow them down.</p>
+                <h3 class="h3-design">We applied systems thinking to document how JJ works</h3>
+                <p>To ensure the effectiveness of JJ, the documentation needed to include <b>governance policies, support, and accessibility,</b> in addition to <b>usage guidelines for each component in the UI kit.</b> Because we used ZeroHeight to host our documentation site, we were also able to integrate design assets and relate them to their guidelines.</p>
+                <p>The documentation is a concise but interconnected system. For example, <b>component descriptions are shown alongside subcomponents,</b> and <b>guidelines direct users to alternative approaches.</b>
             </div>
+            <img class="img-wide" src="design/jj-dos-donts.png" alt="Dos and don'ts for a text list component that link to alternative components in the system for a different approach">
+
             <div class="text-left">
-                <h3 class="h3-design">Clear, fun, and relevant language was incorporated into JJ's documentation</h3>
-                <p>To describe the characteristics and usage of a component in the documentation, we came up with <b>a simple system that aligns with Jamba's brand:</b></p>
+                <h3 class="h3-design">Fun but clear language was incorporated into JJ's documentation</h3>
+                <p>With delight as a design value and integral part of Jamba's products, we wondered: <b>how do you make design system documentation fun?</b> Documentation should be clear, concise, and usable. We knew JJ's documentation should also be fun, without any unnecessary flairs that would slow users down.</p>
+                <p>We created <b>a simple system to describe a component's specs and usage that balances clarity and fun:</b></p>
                 <ul>
                     <li><p><b>Ingredient</b> = a component used in other component</p></li>
                     <li><p><b>Flavor</b> = a type of component</p></li>
                     <li><p><b>Recipe</b> = a set of guidelines for using a component</p></li>
                 </ul>
             </div>
-            <img class="img-right" src="design/jj-documentation.png" alt="Documentation for the mega menu component showing ingredients, flavors, and recipes for the component">
-            <div class="text-full">
-                <h3 class="h3-design">Capturing JJ's other values: efficiency and inclusivity</h3>
-                <p>JJ's documentation also keeps efficiency and inclusivity in mind. Component guidelines are written as concisely as possible; images demonstrate the dos and don'ts of usage only when illustration is necessary.</p>
-            </div>
-            <img class="img-wide" src="design/jj-dos-donts.png" alt="Examples of dos and don'ts for the list component">
-            <div class="text-full">
-                <p>The documentation also emphasizes the involvement that other Jamba designers could have with the system, such as giving feedback and contributing new ideas. The site also has a page dedicated to accessibility, with other accessible guidelines mentioned alongside colors and components when necessary. Feel free to explore all of JJ's documentation.</p>
-            </div>
+            <img class="img-right" src="design/jj-doc-page.png" alt="Documentation for the mega menu component showing ingredients, flavors, and recipes for the component">
         </section>
 
         <section class="content-grid">
             <div class="text-full">
-                <h2 class="h2-design">We pitched JJ to showcase the built-in flexibility and fun</h2>
+                <h2 class="h2-design">We pitched JJ to showcase its built-in flexibility and fun</h2>
             </div>
             <div class="text-full">
-                <p>To make our pitch as engaging and convincing as possible, we brought the personified JJ to life. Our pitch focused on answering <b>questions that designers and developers at Jamba Juice might have about JJ:</b></p>
+                <p>To make our pitch as engaging and convincing as possible, we brought the personified JJ to life. Our pitch focused on answering <b>questions that designers and developers might have about JJ:</b></p>
                 <ul>
                     <li><p>Who is JJ?</p></li>
                     <li><p>Why should I work with JJ?</p></li>
@@ -212,10 +231,19 @@
                     <li><p>What's so special about JJ?</p></li>
                 </ul>
             </div>
-            <img class="img-full" src="design/jj-pitch.png" alt="A slide from the pitch deck: showing how JJ's ingredients fuel creative masterpieces depicted as smoothies">
+            <img class="img-wide" src="design/jj-pitch.png" alt="A slide from the pitch deck: showing how JJ's ingredients fuel creative masterpieces depicted as smoothies">
             <div class="text-full">
-                <p>The pitch, including a live demo of the UI kit and documentation, was well-received by our audience (our classmates and professor). Open our <a href="https://www.figma.com/proto/7W7TlzkuWKA9HRZZ5qUdkZ/JJ-Pitch-Deck?type=design&node-id=1-1510&t=csatuM3BCaAGDOa5-1&scaling=contain&page-id=0%3A1&mode=design">pitch deck</a> to see how we answered all the above questions.</p>
                 <p>We emphasized the <b>features that make JJ uniquely valuable to work with:</b> JJ incorporates dynamic colors, built-in accessibility, customizable components, a large image stock, and thorough guidelines into <b>a single source of truth and creativity</b> for Jamba Juice. Most importantly, <b>JJ creates a delightful experience</b> that is foundational to all things Jamba.</p>
+                <p>The pitch, including a live demo of the UI kit and documentation, was well-received by our audience (our classmates and professor). Open our <a href="https://www.figma.com/proto/7W7TlzkuWKA9HRZZ5qUdkZ/JJ-Pitch-Deck?type=design&node-id=1-1510&t=csatuM3BCaAGDOa5-1&scaling=contain&page-id=0%3A1&mode=design">pitch deck</a> to see how we answered the above questions.</p>
+            </div>
+        </section>
+
+        <section class="content-grid">
+            <div class="text-full">
+                <h2 class="h2-design">What are the next steps for JJ?</h2>
+            </div>
+            <div class="text-full">
+                <p>The next update to JJ would be to <b>make the components responsive.</b> This would include evaluating how the site currently handles responsiveness, updating or adding components in the UI kit, and specifying guidelines for responsiveness on the documentation site.</p>
             </div>
         </section>
 
