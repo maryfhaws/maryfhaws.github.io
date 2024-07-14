@@ -24,8 +24,8 @@
             <a class="nav-header" href="index.html">Mary Frances Haws</a>
             <ul class="menu">
                 <li><a class="menu-link underline" href="about.html">About</a></li>
-                <li><a class="menu-link underline" href="art.html">Art</a></li>
                 <li><a class="menu-link menu-link-current underline-current" href="design.html">Design</a></li>
+                <li><a class="menu-link underline" href="art.html">Art</a></li>
                 <li><a class="menu-link underline" href="photography.html">Photography</a></li>
             </ul>
         </nav>
@@ -35,6 +35,14 @@
         </header>
 
         <section class="gallery-grid">
+            <div class="gallery-full-item" id="biomimicry">
+                <img class="gallery-full-img" src="design/biomimicry-cover.png" alt="mobile sustainable operating system mockups">
+                <div class="gallery-text">
+                    <p class="gallery-tags">Design * Speculative Design</p>
+                    <p class="gallery-title">Using Biomimicry and Green Design Strategies to Imagine a Sustainable Mobile Operating System</p>
+                </div>
+            </div>
+
             <div class="gallery-left-item" id="jj">
                 <img class="gallery-left-img" src="design/jj-cover.png" alt="Pages from JJ design system's documentation and UI kit">
                 <div class="gallery-text">
@@ -252,6 +260,10 @@
         };
 
         /* GALLERY LINKS */
+        var biomimicry = document.getElementById("biomimicry");
+        biomimicry.addEventListener("click", function(event){
+            window.location = "biomimicry.html";
+        });
         var jj = document.getElementById("jj");
         jj.addEventListener("click", function(event){
             window.location = "jj.html";
