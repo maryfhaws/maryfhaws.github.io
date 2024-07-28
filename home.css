@@ -95,18 +95,18 @@ h2 {
 }
 
 /* LARGE SCREENS */
-@media only screen and (min-width: 1700px) {
+/*@media only screen and (min-width: 1700px) {*/
     /*** HEADERS ***/
-    h1 {
+    /*h1 {
         font-size: 2.5em;
     }
     h2 {
         font-size: 1.9em;
         margin-bottom: 80px;
-    }
+    }*/
 
     /* COVER ART GRID */
-    .cover-grid {
+    /*.cover-grid {
         grid-template-columns: 1fr repeat(20, 70px) 1fr;
         grid-template-rows: repeat(15, 70px);
         margin-bottom: 300px;
@@ -123,5 +123,5 @@ h2 {
     }
     .orange-rect {
         border: 5px solid var(--turmeric);
-    }
-}
+    }*/
+/*}*/
