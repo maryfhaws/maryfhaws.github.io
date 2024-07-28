@@ -133,34 +133,34 @@ p {
 }
 
 /* LARGE SCREENS */
-@media only screen and (min-width: 1700px) {
-    .page-header {
+/*@media only screen and (min-width: 1700px) {*/
+    /*.page-header {
         font-size: 2.5em;
-    }
+    }*/
 
     /*** DEFAULT STYLES ***/
-    h2 {
+    /*h2 {
         font-size: 1.6em;
     }
     p {
         font-size: 1.3em;
         line-height: 1.6em;
-    }
+    }*/
 
-    .content-grid {
+    /*.content-grid {
         grid-template-columns: 1fr repeat(14, 100px) 1fr;
-    }
+    }*/
 
     /*** HEADERS FOR ART AND DESIGN ***/
-    .page-header-content-art {
+    /*.page-header-content-art {
         font-size: 2.1em;
     }
     .page-header-content-tags {
         font-size: 1.05em;
-    }
+    }*/
 
     /* PHOTOS GRID */
-    .photos-grid {
+    /*.photos-grid {
         grid-template-columns: 1fr 680px 40px 680px 1fr;
         margin-bottom: 300px;
     }
@@ -174,5 +174,5 @@ p {
         grid-column: 4 / 5;
         margin-bottom: 40px;
         width: 680px;
-    }
-}
+    }*/
+/*}*/
