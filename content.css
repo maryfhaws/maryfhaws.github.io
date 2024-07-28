@@ -371,13 +371,13 @@ video {
 }
 
 /* LARGE SCREENS */
-@media only screen and (min-width: 1700px) {
+/*@media only screen and (min-width: 1700px) {
     .page-header {
         font-size: 2.5em;
-    }
+    }*/
 
     /*** DEFAULT STYLES ***/
-    h2 {
+    /*h2 {
         font-size: 2.1em;
     }
     h3 {
@@ -393,10 +393,10 @@ video {
 
     .content-grid {
         grid-template-columns: 1fr repeat(14, 100px) 1fr;
-    }
+    }*/
 
     /*** HEADERS FOR ART AND DESIGN ***/
-    .page-header-content-art {
+    /*.page-header-content-art {
         font-size: 2.1em;
     }
     .page-header-content-tags {
@@ -415,10 +415,10 @@ video {
     
     .h2-tag {
         font-size: 1.2em;
-    }
+    }*/
 
     /*** IMAGES AND TEXT ***/
-    video {
+    /*video {
         height: 680px;
         width: auto;
     }
@@ -435,10 +435,10 @@ video {
     }
     .img-right-wide {
         width: 700px;
-    }
+    }*/
 
     /*** CALLOUT BOX ***/
-    .callout {
+    /*.callout {
         width: 1300px;
     }
     .callout-left {
@@ -450,12 +450,12 @@ video {
     }
     .callout-p {
         margin: 4%;
-    }
+    }*/
 
     /*** ART CONTENT STYLES ***/
-    .img-full-art {
+    /*.img-full-art {
         max-width: 1400px;
         height: 860px;
-    }
+    }*/
 
-}
+/*}*/
