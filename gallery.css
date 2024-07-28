@@ -170,8 +170,8 @@
 }
 
 /* LARGE SCREENS */
-@media only screen and (min-width: 1700px) {
-    .page-header {
+/*@media only screen and (min-width: 1700px) {*/
+    /*.page-header {
         font-size: 2.5em;
     }
 
@@ -214,5 +214,5 @@
     
     .gallery-text-hover {
         padding-left: 20px;
-    }
-}
+    }*/
+/*}*/
